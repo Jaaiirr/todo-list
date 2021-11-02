@@ -1,13 +1,27 @@
 import React from "react";
 
-//Estilos
+//Styles
 import "../styles/Header.css";
 
 const Header = () => {
   return (
-    <header>
-      <h4 className="logo">Todo List</h4>
-    </header>
+    <>
+        <div className="tittle">
+            <header>
+                <h4 className="logo">Todo List</h4>
+            </header>
+
+            <div className="buttons btn-bg bg-2 ">
+                <div className="btn btn-2">
+                    <button > All Task</button>
+                    <button>Completed Task</button>
+                    <button>Uncompleted Task</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </>
   );
 };
 
